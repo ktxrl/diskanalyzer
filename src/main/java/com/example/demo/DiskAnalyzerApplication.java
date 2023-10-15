@@ -41,7 +41,7 @@ public class DiskAnalyzerApplication extends Application {
             Scene two = new Scene(border, 700, 700);
             stage.setScene(two);
         });
-
+        System.out.println();
         stage.show();
     }
 
