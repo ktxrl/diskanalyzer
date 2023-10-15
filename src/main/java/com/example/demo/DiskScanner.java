@@ -29,6 +29,7 @@ public class DiskScanner {
                 fileNameToSize.put(child.getName(), child.length());
             }
         }
+        System.out.println();
         return fileNameToSize;
     }
 
